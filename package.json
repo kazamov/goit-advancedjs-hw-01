@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/goit-advancedjs-hw-01/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "glob": "^8.1.0",
+    "prettier": "^3.2.5",
     "vite": "^4.5.2"
   },
   "author": "Zakir Nuriiev <kazamov@gmail.com>",
